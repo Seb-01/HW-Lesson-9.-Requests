@@ -32,7 +32,7 @@ class YaUploader:
         print(f'Загружаем файлы на Яндекс.Диск в директорию: /{self.last_folder}')
 
         # Получаем token:
-        self.token = 'AgAAAAAEjRl2AADLWxu9VDr8q0N4sZ1GeLmmCtI'
+        self.token = ''
         self.token_prefix= 'OAuth'
 
     def _get_files_from_folder(self) -> list:
